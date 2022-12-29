@@ -1,0 +1,437 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+#nav-left{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.custom-logo{
+    padding: 20px;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+header:after, header:before {
+    content: '';
+    display: table;
+} 
+.dropdown{
+    position: relative;
+}
+.child{
+    background-color: gray;
+    padding-left: 0%;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+.dropdown:hover .child{
+    display: block;
+}
+
+
+#background{
+    
+    padding-left: 50px;
+    padding-top: 150px;
+    color: white;
+    font-family: sans-serif;
+    height: 600px;
+    background-image: url("mac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#background h1{
+    font-size: 65px;
+    font-weight: 50;
+}
+#background p{
+    font-size: 25px;
+    
+}
+#background h5{
+    padding: 20px;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.info{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.divone{
+    height: 500px;
+    width: 350px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 14px;   
+}
+.divone i{
+    font-size: 180px;
+}
+
+.divtwo{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    
+}
+.content{
+    padding-left: 15px;
+    
+}
+.divtwo img{
+    border-radius: 10px;
+    padding-right: 10px;
+    
+}
+.divthree{
+    text-align: center;
+}
+.companyowner img{
+    width: 100%;
+    
+    
+
+}
+.companyowner{
+    display: flex;
+    
+    
+}
+.companyowner div{
+    box-shadow: 5px 5px 5px rgb(95, 89, 89);
+    padding: 10px;
+    margin: 150px 10px;
+    
+
+}
+.companyowner,h2,h4,p{
+    padding-left: 10px;
+
+}
+.score{
+    color: #fff;
+    display: flex;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(75, 66, 66);
+    height: 200px;
+}
+
+.divfour{
+    text-align: center;
+}
+.divimgs img{
+    width: 24%;
+    
+}
+.divimgs img:hover{
+    opacity: 0.5;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 232, 232);
+    height: 300px;
+    margin: 100px 0px;
+}
+.box1{
+    width: 40%;
+    padding-left: 35px;
+}
+.box2{
+    width: 20%;
+}
+#div{
+    height: 800px;
+    background-color: gray;
+}
+#heading{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+    
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box h2{
+    border-bottom: 1px solid black;
+}
+
+
+#box-1{
+    background-color: #fff;
+    width: 480px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+
+}
+#box-1 h2{
+    background-color: #000;
+    color: #fff;
+    font-size: 50px;
+}
+
+#box-2{
+    background-color: #fff;
+    width: 480px;
+    height: 630px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+#box-2 h2{
+    background-color: red;
+    color: #fff;
+    font-size: 50px;
+    
+
+
+}
+#box-3{
+    background-color: #fff;
+    width: 480px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+#box-3 h2{
+    background-color: black;
+    color: #fff;
+    font-size: 50px;
+}
+.lastdiv{
+    text-align: center;
+}
+.mindiv{
+    margin-left: 30px;
+}
+.form{
+    display: block;
+    padding: 20px;
+    
+}
+.form input{
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+}
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+}
+#map{
+    width: 100%;
+    padding: 10px;
+}
+footer{
+    margin-top: 100PX;
+    text-align: center;
+    background-color: #000;
+    height: 300px;
+    color: white;
+    padding-top: 150px;
+}
+.container{
+    
+    width: 80%;
+    background-color: lightgray;
+}
+.progress{
+    background-color: gray;
+    text-align: center;
+    
+    width: 50%;
+}
+@media screen and (max-width:767px){
+    
+    
+    #background{
+        width: 100%;
+        max-width: 600px;
+        height: 500px;
+        padding: 0%;
+        margin: 0%;
+        
+        
+    }
+    #background h5{
+        padding-left: 0%;
+    }
+
+    .divone{
+        display: block;
+        text-align: center;
+        width: 97%;
+        overflow: hidden;
+    }
+
+    .divtwo{
+        display: inline-block;
+        width: 100%;
+    }
+    .content{
+        
+        text-align: center;
+    }
+    .divtwo img{
+        width: 100%;
+    }
+    .companyowner{
+        display: block;
+    }
+    .score{
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+    }
+    .scorediv{
+        padding: 10px;
+        text-align: center;
+    }
+    .divimgs{
+        width: 100%;
+        display: block;
+    }
+    .divimgs img{
+        width: 100%;
+    }
+    .box{
+        padding: 10px 10px 10px 0px;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box1{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .box2{
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+    #box{
+        padding: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #box-1{
+        
+        width: 100%;
+        height: 350px;
+    }
+    .lastdiv{
+        width: 100%;
+        display: block;
+    
+    }
+    .form{
+        width: 100%;
+
+    }
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    body{
+        
+        text-align: center;
+    }
+    #background{
+        background-position: center;
+        
+    }
+    
+    .custom-logo a{
+        float: left;
+    }
+
+    
+    
+    header{
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .companyowner{
+        display: block;
+
+    }
+
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+
+        body{
+        
+        text-align: center;
+    }
+    #background{
+        background-position: center;
+        
+    }
+    
+    .custom-logo a{
+        float: left;
+    }
+
+    
+    
+    header{
+        text-align: center;
+        max-width: 100%;
+    }
+}
